@@ -1,0 +1,19 @@
+{
+  "name": "callie",
+  "app_id": "",
+  "gulpStartupTasks": [
+    "sass",
+    "template",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ],
+  "proxies": [
+    {
+      "path": "/api/",
+      "proxyUrl": "http://fameitconsultancy.com/callie/androidapp/index"
+    }
+  ]
+}
